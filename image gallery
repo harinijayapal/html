@@ -1,0 +1,60 @@
+<!DocType html>
+<html>
+<head>
+<title>Image Gallery for community events</title>
+</head>
+<style>
+.one{
+  border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+.two{
+  border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+.three{
+  border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+.four{
+  border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+.five{
+  border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+.six{
+    border-style:"solid";//dashed
+  border-width:20px;
+  border-color: black;
+}
+</style>
+<body>
+<h1>Sports competion event</h1>
+<p>Event makes you feel happy and it will make you to feel proud yourself. It will increase your confident as well as your knowledge and intelligence. Running race helps you to reduce your fat calories.It will make you to feel fit and healthy.</p>
+<table>
+<tr>
+<th>event</th>
+<th>prices</th>
+</tr>
+<tr>
+<td>Running race</td><img class="one" src="image1.jpg" alt="event1" width="150" height="200">
+<td>car</td><img class ="two"src="image2.jpg" alt="price 1" width="150" height="200">
+</tr>
+<tr>
+<td>Cricket</td><img class="three" src=image3.jpg" alt="event2" width="150" height="200">
+<td>Motor bike</td><img class="four" src=image4.jpg" alt="price2" width="150" height="200">
+</tr>
+<tr>
+<td>koko</td><img class="five"src="image5.jpg" alt="event3" width="150" height="200">
+<td>Fridge</td><<img class="six"src="image6.jpg" alt="event4" widht="150" height="200">
+</tr>
+</table>
+</body>
+</html>
