@@ -1,0 +1,19 @@
+<!DocType html>
+<html>
+<head>
+<title>Local community event portal</title>
+//<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section id="events">
+<nav>
+<ul>
+<a href="help.html" target="_blank">
+<li><a href="#home">Home</a></li>//<a href="#" >Home</a>
+<li><a href="#Events">Events</a></li>
+<li><a href ="#Contacts">Contact</a></li>
+</ul>
+</nav>
+</section>
+</body>
+</html>
