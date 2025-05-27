@@ -1,0 +1,22 @@
+<!DocType html>
+<html>
+<body>
+<h1>HTMl geolocation</h1>
+<p>Click the button to get your current coordinates.</p>
+<button onclick="getLocation()">Try it</button>
+<p id="Trichy"></p>
+<script>
+const x=document.getElementById("Trichy");
+fucntion getLocation(){
+   if(navigator.geolocation){
+        navigator.geolocation.getcurrentPosition(response,reject);
+}else{
+   x.innerHTMl = "Geolocation is not supporteed by this browser.";
+}
+}
+function response(position){
+
+
+</script>
+</body>
+</html>
