@@ -1,0 +1,10 @@
+<video src="promo.mp4" height="350" width="400" controls oncanplay="videoReady()" type="promo/mp4">
+your browser does not support the video tag.</video>
+<p id="videostatus"></p>
+<script>
+function videoReady(){
+  docucment.getElementById("videostatus").textcontent="video ready to play";
+}
+window.onbeforeunload=function(){
+  return "Are you sure you are ready to quit the page?";
+}
