@@ -30,9 +30,14 @@ function displayFee(this.Fee){
 function confirmsubmitbutton() {
     alert("Your feedback is submitted thankyou");
 }
-function enlargeimage(){
-    const element=document.getElementById("feedback");
-    textcontent +="characters:"+text.length;
+function enlargeimage(img){
+    img.style.color="red";
+    img.style.width="300px";
+}
+fuction countcharacters(){
+    const text=document.getElementById("Feedback");
+    textcontent += text.length;
+    console.log(textcontent+"charcount");
 </script>
 </body>
 </html>
