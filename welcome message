@@ -1,0 +1,24 @@
+ <!DocType html>
+<html>
+<head>
+<title>welcome message</title>
+</head>
+<style>
+#WelcomeBanner{
+    background-color:blue;
+    text-align:center;
+    font-family:"Sans-serif";
+    border-radius:2px;
+    padding:20px;
+    margin:20px;
+}
+.highlight{
+    color:red;
+    font-size:20px;
+    font-weight:"bold";
+</style>
+<body>
+   <div id="WelcomeBanner"><p>Hello everyone welcome all</p>
+       <span class="highlight"><p>Dont miss the summer locations</p>
+</body>
+</html>
