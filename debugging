@@ -1,0 +1,16 @@
+<!DocType html>
+<html>
+<body>
+<h1>Debugging example</h1>
+<p>devtools</p>
+<script>
+let name="harini"
+let cgpa=7.5;
+function break(){
+  cgpa+=0.5;
+  console.log("cgpa:"+cgpa);
+}
+break();
+</script>
+</body>
+</html>
