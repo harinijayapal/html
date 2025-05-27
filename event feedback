@@ -1,0 +1,38 @@
+ <DocType html>
+<html>
+<head>
+<title>Event feedback with event handling</title>
+</head>
+<body>
+<form>
+<label>Phone no:</label>
+<input type="phone-no"or "tel" id="phone" onblur="validatephoneno()"><br>
+<select oncharge="displayFee(this.value)">//event fee
+<option value="100">Webinar</option>
+<option value="200">workshop</option>
+</select><br><br>
+<button type="button" onclick="confirmsubmitbutton()">Submit</button><br><br>
+<img src="image.jpg" width="150" height="200" onblclick="enlargeimage(this.value)"></br></br>
+<textarea id="feedback" onkeyup="countcharacters()"></textarea>
+</form>
+<script>
+fuction validatephoneno(){
+   const phoneno=document.getElementById('phoneno');
+   if(getvalidatephoneno(phoneno)){//let phoneno; phoneno=prompt("Enter your phone no"); console.log("valid phone no:");
+         alert("Enter a valid phone no")//it must be in 10 digit number
+}
+   else{
+        alert("It is not a validate phone no:");
+}
+function displayFee(this.Fee){
+     alert("you must pay your exam fees:")
+}
+function confirmsubmitbutton() {
+    alert("Your feedback is submitted thankyou");
+}
+function enlargeimage(){
+    const element=document.getElementById("feedback");
+    textcontent +="characters:"+text.length;
+</script>
+</body>
+</html>
